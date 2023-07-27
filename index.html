@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+      
+  </head>
+  <body>
+      <header>
+        <nav>
+          <div class="leftbox">
+            <h1>Ankit's Portfolio</h1>
+          </div>
+          <div class="rightbox">
+            <ul>
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#Projects">Projects</a></li>
+              <li><a href="#Contacts">Contact Me</a></li>
+              <li><a href="#About">About</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-------------------------------------------HOME-SECTION---------------------------------------->
+      <main>
+        <section class="firstsection" id="Home">
+          <div class="leftsection">
+           <div>Hii , I am <span class="name"><h1>Ankit</h1></span></div> 
+           <div> <span id="element"></span><br></div>
+           <div><button class="btn"><a href="#Contacts">Contact Me</a></button>
+            <button class="btn"> <a href="./my resume .pdf" target="_blank" download>Download Resume</a></button>
+          </div>
+          </div>
+          <div class="rightsection">
+            <img src="./myphoto.png" alt="web developer image" />
+          </div>
+        </section>
+        <!-------------------------------------------ABOUT-SECTION------------------------------------>
+        <h1 class="about" id="About">About Me</h1>
+        <hr>
+        <section class="second-section container reveal">
+         
+          <div class="left-div2">
+            <img src="./myphoto.png" alt="web developer image">
+
+          </div>
+          <div class="right-div2">
+           <div>
+            <h2><span>My</span> Introduction</h2>
+            <p>Hello! Everyone</p>
+            <p>I am a Prefinal year engineering student currently pursuing Bachelors of technology in Electrical Engineering from Madan Mohan Malaviya University Of Technology,Gorakhpur Uttar Pradesh-273010.<br></p>
+             <p>"I am a passionate frontend developer dedicated to creating visually appealing and user-friendly  websites.With a strong command of HTML, CSS, and JavaScript constantly exploring the latest web technologies and frameworks to stay at the forefront of the ever-evolving web development landscape."</p> 
+           </div>
+          <div class="skills">
+            <h3>My Skills</h3>
+            <span>HTML</span>:85%<br>
+            <div class="skillbox"><div class="html"></div></div>
+            <span>CSS</span>:70%<br>
+            <div class="skillbox"><div class="css"></div></div>
+            <span>JavaScript</span>:60%<br>
+            <div class="skillbox"><div class="js"></div></div>
+            <span>C++</span>:45%<br>
+            <div class="skillbox"><div class="cpp"></div></div>
+          </div>
+          </div>
+        </section>
+
+        <h2 class="Edu"><span>My</span> Education</h2>
+        <hr>
+        <!-------------------------------------------EDUCATION-SECTION------------------------------------>
+         <section class="container reveal">
+          <div class="education ">
+            <div class="graduation">
+             <div class="b.tech"><img src="./graduation.png" alt="degree"></div>
+             <div class="engineering">
+               <h3>Graduation</h3>
+               <p>B.Tech(EE)</p><br>
+               <p>MMMUT-(2021-2025)</p>
+             </div>
+            </div>
+            <div class="intermediate">
+             <div class="inter"><img src="./school.png" alt="schoolpic"></div>
+             <div class="engineering">
+               <h3>Intermediate</h3>
+               <p>Bal Jyoti Public School</p><br>
+               <p>Session-(2018-2020)</p>
+             </div>
+            </div>
+            <div class="highschool">
+             <div class="high"><img src="./school.png" alt="schoolpic"></div>
+             <div class="engineering">
+               <h3>High School</h3>
+               <p>Iswhar Chand Inter College</p><br>
+               <p>Session-(2016-2018)</p>
+             </div>
+            </div>
+   
+            </div>
+         </section>
+
+<!--------------------------------------------------PROJECT-SECTION------------------------------------------------>
+
+
+        <h2 class="project" id="Projects">My <span>Projects</span></h2>
+        <hr>
+        
+        <section class="third-section container reveal">
+          <div class="left-div3">
+            <img src="./landing.jpg" alt="landing page">
+            <a href="https://12coderankit.github.io/Codsoft-Landing-page/" target="_blank"><h2>Landing Page</h2></a>
+            <p>I made a landing page of a edtech platform which contains the Header, Main-section and Footer using my knowledge of HTML and CSS.</p>
+          </div>
+          <div class="mid-div3">
+            <img src="./calculator.png" alt="calculator">
+            <a href="https://12coderankit.github.io/Codsoft--Calculator/"  target="_blank"><h2>Simple calculator</h2></a>
+            <p>I made a  Simple Calculator which is used to perform some basic operation like addition, subtraction, multiplication and division by using HTML, CSS and JavaScript.</p>
+
+          </div>
+          <div class="right-div3">
+            <img src="./amazon.jpg" alt="landing page">
+            <a href="https://12coderankit.github.io/Amazon-home-page-clone/"  target="_blank"><h2>Amazon Clone</h2></a>
+            <p>I made a Clone  of a Amazon websites Home page which is online shopping site by using the HTML,CSS.</p>
+          </div>
+        </section>
+
+        <!-----------------------------------------CONTACT-SECTION--------------------------->
+
+        <h2 class="contact" id="Contacts">Contact Me For  Projects</h2>
+        <hr>
+        <section class="contact-me container reveal">
+          <div class="form">
+            <form>
+                <div class="form-group">
+                    <label for="name">Enter Name</label><br>
+                  <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter you name" required>
+                  </div>
+                  <div class="form-group">
+                  <label for="Email">Email address</label><br>
+                  <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter you email" required>
+                  <div>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                  
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone no.</label><br>
+                  <input type="phone" class="form-control" id="phone" placeholder="Phone Number" required>
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="Check">
+                  <label class="form-check-label" for="Check">Want work on a project with me.</label>
+                </div>
+               <div><button type="submit" class="btn">Submit</button></div> 
+              </form>
+        </div>
+        <div class="project-section">
+          <div class="project-1" style="display: flex; width: 100%; margin: 5px;">
+            <img src="./HTML.png"  alt="html" style="width:50%;  height: 200px;">
+            <img src="./css.png" alt="csslogo" style="width: 50%;  height: 200px;">
+          </div>
+
+          <div class="project-2" style="display: flex; width: 100%;  margin: 5px;">
+            <img src="./JavaScript.png"  alt="jslogo" style="width:50%; height: 200px;">
+            <img src="./adobe-photoshop-log.png" alt="cpplogo" style="width:50%;  height: 200px;">
+          </div>
+
+        </div>
+
+        </section>
+        
+      </main>
+
+
+      <!-----------------------------FOOTER--------------------------------------------->
+
+      <footer class="footer l">
+
+        <h2>Ankit Pandey</h2>
+        <p> Ghaziabad, Uttar Pradesh, India</p>
+        <div class="number"><p>+91-9773950820  | lp1814303@gmail.com </p></div>
+        <div class="Icons">
+         <a href="https://github.com/12coderankit" target="_blank"> <i class="fa-brands fa-square-github"></i></a>
+         <a href="https://www.linkedin.com/in/ankit-pandey-5a2823257" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://twitter.com/Ankit2021031017?t=0vv87r9ZI5FBaqD3kryp_A&s=09" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="divider"></div>
+        <div class="copyright">
+          <p> &#169 Portfolio, All Rights Reserved | Designed By Ankit Pandey</p>
+        </div>
+      </footer>
+      
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/35a39f7a6e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Front End Developer", '&amp; UI/UX Designer.'],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
